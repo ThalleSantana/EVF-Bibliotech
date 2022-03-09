@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  font-weight: 300;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+td, th{
+    border:solid black 1px;
+    padding: 10px;
+    width: 200px;
+}
+/* * {
+    margin:20px auto
+} */
+
+table{
+    width: 1200px;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th{
+    background-color: #c0c0c0;
+    font-size: 16px;
+    font-family:arial;
+    font-weight: bold
+}
+td{
+    max-width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: rgba(16, 17, 18, 0.09)
+}
+
+caption{
+    font-size: 30px;
+    color: black;
+    font-family: calibri;
+    font-weight: bold;
+    text-align: center;
+    background-color: #c0c0c0;
+    padding: 10px;
+    margin: 50px 0 15px 0;
+}
+
+.pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pagination .btn{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #ddd;
+    margin: 10px;    
+}
+.pagination .btn:hover{
+    background-color: rgb(143, 143, 143);
+    border-radius: 5px;
+}
+.addLivro{
+    margin-top: 5px;
+    background: transparent;
+}
+.addLivro .btn{
+    border: 1.5px solid #ddd;
+    border-radius: 25px;
+    text-align: center;
+    padding: 1rem 3rem;
+    outline: 0;
+    cursor: pointer;
+    color: #000;
+    background: #c0c0c0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
